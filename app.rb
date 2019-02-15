@@ -1,4 +1,5 @@
 require_relative 'config/environment'
+require_relative 'models/puppy'
 
 class App < Sinatra::Base
   get '/' do 
@@ -10,7 +11,7 @@ class App < Sinatra::Base
   end 
   
   post '/puppy' do 
-    attribu
+    attributes = {}
     erb :display_puppy
   end 
   
