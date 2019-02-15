@@ -8,3 +8,7 @@ class Puppy
     @name = name
   end 
 end 
+
+attributes = {}
+
+@bree
