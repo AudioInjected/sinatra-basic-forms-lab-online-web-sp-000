@@ -3,9 +3,9 @@ class Puppy
   attr_reader :breed
   
   def initialize(name, age, breed)
-    @breed = attributes[:breed]
-    @age = attributes[:months_old]
-    @name = attributes[:name]
+    @breed = breed
+    @age = age
+    @name = name
   end 
 end 
 
