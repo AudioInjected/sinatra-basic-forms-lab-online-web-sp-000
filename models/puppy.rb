@@ -6,7 +6,6 @@ class Puppy
     @breed = attributes[:breed]
     @age = attributes[:months_old]
     @name = attributes[:name]
-    binding.pry
   end 
 end 
 
