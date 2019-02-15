@@ -10,6 +10,7 @@ class App < Sinatra::Base
   end 
   
   post '/puppy' do 
+    attribu
     erb :display_puppy
   end 
   
