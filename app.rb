@@ -12,7 +12,7 @@ class App < Sinatra::Base
   
   post '/puppy' do 
     attributes = {}
-    attributes[
+    attributes[:name] = params[:name]
     erb :display_puppy
   end 
   
