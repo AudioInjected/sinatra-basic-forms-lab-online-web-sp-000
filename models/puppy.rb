@@ -4,7 +4,7 @@ class Puppy
   
   def initialize(attributes)
     @breed = attributes[:breed]
-    @age = attributes[:age]
+    @age = attributes[:months_old]
     @name = attributes[:name]
     binding.pry
   end 
